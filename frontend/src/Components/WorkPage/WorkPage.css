@@ -1,0 +1,48 @@
+.workPage {
+    color: #000;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 100vh;
+}
+
+
+ /* CAROUSELL CODE  */
+
+ .carousell {
+    /* background: linear-gradient(to bottom, rgba(198, 17, 17, 0.5), rgba(15, 207, 101, 0)), #1a07c9; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+}
+
+.carousell img {
+    width: 80%;
+}
+
+
+ /* WORK INFO CODE */
+
+.workPageInfo {
+    background: #A8C3CE;
+
+    width: 50%;
+    padding: 1rem;
+}
+
+.workPlaceList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    margin-top: 2rem;
+}
+
+.workPlace p{
+    width: 80%;
+}

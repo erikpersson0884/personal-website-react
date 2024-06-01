@@ -1,0 +1,47 @@
+
+.projectPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* height: 100vh; */
+    padding-bottom: 10rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 90%;
+    margin-top: 2.5rem;
+}
+
+.project {
+    background: #6c0c72;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 30%;
+    height: 15vw;
+    border-radius: .15rem;
+}
+
+.project .projectInfo {
+    display: none;
+}
+
+.project:hover .projectInfo {
+    background: #bfbfbfad;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 8px black;
+    
+    display: flex ; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}

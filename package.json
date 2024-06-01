@@ -1,0 +1,13 @@
+{
+  "name": "erik-persson-website",
+  "version": "1.0.0",
+  "description": "Personal webpage of Erik Persson",
+  "main": "index.js",
+  "scripts": {
+    "start-frontend": "npm --prefix ./frontend start",
+    "start": "npm --prefix ./frontend start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erik Persson",
+  "license": "ISC"
+}

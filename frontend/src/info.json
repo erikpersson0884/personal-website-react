@@ -1,0 +1,35 @@
+{
+    "name": "Erik Persson",
+    "contact": {
+        "email": "erik@example.com",
+        "phoneNumber": "123-456-7890"
+    },
+    "social": {
+        "instagram": "https://www.instagram.com/erikpersson0884/",
+        "linkedin": "https://www.linkedin.com/in/erikpersson0884/",
+        "github": "https://github.com/erikpersson0884",
+        "x": "https://x.com/erikpersson0884"
+    },
+    "projects": [
+        {
+            "name": "FikIT",
+            "description": "This is a project I worked on.",
+            "url": "https://github.com/erikpersson0884/fikit",
+            "image": "/images/fikit.png"
+        }, 
+        {
+            "name": "screenIT",
+            "description": "This is another project I worked on.",
+            "url": "https://github.com/erikpersson0884/screenit",
+            "image": "/images/screenit.png"
+        },
+        {
+            "name": "kvitto.chalmers.it",
+            "description": "This is a project I worked on.",
+            "url": "https://github.com/erikpersson0884/kvitto",
+            "image": "/images/kvitto.png"
+
+        }
+    ]
+    
+}
