@@ -10,6 +10,23 @@
         "github": "https://github.com/erikpersson0884",
         "x": "https://x.com/erikpersson0884"
     },
+    "workPlaces": [
+        {
+            "name": "Borealis",
+            "duration": "2022-2023",
+            "description": "Som skiftarbetare på borealis bestod arbetet av produktion av världsledande polymerprodukter. Inom arbetet lades stort fokus på säkerhet och att hålla igång produktionskedjan."
+        },
+        {
+            "name": "ICA Pärlan",
+            "duration": "2021",
+            "description": "Arbetet på Ica Pärlan inkluderade samtliga av affärens avdelningar, allt från bageri till butikskassa. Här arbetas mycket med logistik, ergonomi och planering, allt med kunden i fokus."   
+        },
+        {
+            "name": "Ängås skola",
+            "duration": "2020",
+            "description": "Inom fritidshemmet bestod arbetsuppgifterna av barntillsyn, samt schemaorganisering och bemötande av vårdnadshavare. Även underhåll av arbetsmaterial och lättare städning utfördes."
+        }
+    ],
     "projects": [
         {
             "name": "FikIT",

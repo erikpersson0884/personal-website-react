@@ -1,5 +1,5 @@
 .workPage {
-    color: #000;
+    /* color: #000; */
 
     display: flex;
     flex-direction: row;
@@ -29,10 +29,14 @@
  /* WORK INFO CODE */
 
 .workPageInfo {
-    background: #A8C3CE;
+    /* background: #A8C3CE; */
 
     width: 50%;
     padding: 1rem;
+}
+
+.workPageInfo .line {
+    background: #fff;
 }
 
 .workPlaceList {

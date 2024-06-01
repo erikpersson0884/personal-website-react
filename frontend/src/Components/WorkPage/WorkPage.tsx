@@ -1,30 +1,10 @@
 import React from 'react';
-
 import './WorkPage.css';
+import info from '../../info.json';
 
 
 const WorkPage: React.FC = () => {
 
-    const workPlaces = [
-        {
-            name: 'Company 1',
-            position: 'Software Developer',
-            duration: 'Jan 2021 - Present',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut lacus ac nisi ultrices fermentum. Sed ut lacus ac nisi ultrices fermentum.'
-        },
-        {
-            name: 'Company 2',
-            position: 'Software Developer',
-            duration: 'Jan 2021 - Present',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut lacus ac nisi ultrices fermentum. Sed ut lacus ac nisi ultrices fermentum.'   
-        },
-        {
-            name: 'Company 3',
-            position: 'Software Developer',
-            duration: 'Jan 2021 - Present',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut lacus ac nisi ultrices fermentum. Sed ut lacus ac nisi ultrices fermentum.'
-        }
-    ]
 
 
     return (
@@ -38,7 +18,7 @@ const WorkPage: React.FC = () => {
                 <aside className='line'></aside>
 
                 <ul className='workPlaceList'>
-                    {workPlaces.map((workPlace, index) => (
+                    {info.workPlaces.map((workPlace, index) => (
                         <div key={index} className='workPlace'>
                             <h3 className='workPlaceName'>{workPlace.name}</h3>
                             <h5>{workPlace.duration}</h5>
