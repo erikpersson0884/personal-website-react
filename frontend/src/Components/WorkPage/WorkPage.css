@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -49,4 +49,20 @@
 
 .workPlace p{
     width: 80%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .workPage {
+        flex-direction: column-reverse;
+    }
+
+    .carousell {
+        width: 100%;
+    }
+
+    .workPageInfo {
+        width: 100%;
+    }
 }

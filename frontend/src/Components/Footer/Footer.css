@@ -12,7 +12,7 @@ footer {
     height: 10rem;
 }
 
-footer .footerLogos {
+/* footer .footerLogos {
     display: flex;
     flex-direction: column;
     flex-direction: space-between;
@@ -23,7 +23,7 @@ footer .footerLogos {
 footer .footerLogos {
     width: min-content;
     height: min-content;
-}
+} */
 
 
 footer a {
@@ -31,4 +31,16 @@ footer a {
     
     font-family: Kavivanar;
     font-size: 3rem;
+}
+
+.footerLogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+footer {
+    flex-direction: column;
 }

@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
 
-    /* height: 100vh; */
     padding-bottom: 10rem;
 }
 
@@ -44,4 +43,18 @@
     align-items: center;
 
     height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .projects {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem
+    }
+
+    .project {
+        width: 65%;
+        height: 40vh;
+    }
+    
 }

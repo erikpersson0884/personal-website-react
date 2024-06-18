@@ -15,7 +15,8 @@
 .landingPage header {
     font-style: "Hurricane";
     margin-top: 10rem;
-    margin-left: 8rem;
+    margin-left: 14rem;
+    margin-left: 14vw;
 }
 
 header h1 {
@@ -25,3 +26,14 @@ header h1 {
     font-size: 5.5rem;
 }
 
+@media screen and (max-width: 768px) {
+    .landingPage header {
+        background: red;
+
+        display: flex;
+        flex-direction: row;
+
+        height: auto;
+        margin: 0;
+    } 
+}

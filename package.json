@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start-frontend": "npm --prefix ./frontend start",
-    "start": "npm --prefix ./frontend start",
+    "start": "npm --prefix ./frontend run build && npm --prefix ./frontend run start",
+    "dev": "npm --prefix ./frontend run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Erik Persson",
