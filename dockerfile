@@ -9,11 +9,11 @@ COPY frontend/package.json frontend/package-lock.json ./frontend/
 RUN cd frontend && npm install && npm run build
 
 # Copy backend files
-COPY backend/ ./backend/
+# COPY backend/ ./backend/
 
 # Install backend dependencies
-WORKDIR /app/backend
-RUN npm install
+# WORKDIR /app/backend
+# RUN npm install
 
 # Expose the port the app runs on
 EXPOSE 3000
