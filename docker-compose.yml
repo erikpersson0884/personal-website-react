@@ -1,7 +1,9 @@
 version: '3'
 services:
-  vevit:
-    image: ghcr.io/erikpersson0884/epw:latest
+  personal-website:
+    image: docker.io/erikpersson0884/personal-website:latest
+    platform: linux/arm/v7
+
     ports:
       - 3000:3000
     volumes:

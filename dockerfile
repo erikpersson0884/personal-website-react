@@ -1,5 +1,4 @@
 # Use a Node.js LTS version as a base image that supports multiple platforms
-# Use a Node.js LTS version as a base image that supports multiple platforms
 FROM node:lts-alpine AS builder
 
 # Set the working directory
